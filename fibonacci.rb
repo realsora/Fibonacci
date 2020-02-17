@@ -11,7 +11,7 @@
       puts fib
   end
 
-    def interactive_fib(num)
+    def iteractive_fib(num)
       i, j = 0, 1
       while i <= num
         puts i
@@ -26,8 +26,8 @@
       x.report("recursive_fib") {
        recursive_fib(num)
       }
-      puts "interactive_fib(num): "
-      x.report("interactive_fib") {
-        interactive_fib(num)
+      puts "iteractive_fib(num): "
+      x.report("iteractive_fib") {
+        iteractive_fib(num)
       }
      end 
